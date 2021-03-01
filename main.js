@@ -2,9 +2,48 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(str) {
+  return str + '!';
+}
+
+const result1 = yell('Hello')
+console.log(result1); Hello!
+const result2 = yell('Hi');
+result2; Hi!
+
+function getFirstCharacter(str) {
+  return str[0]
+}
+
+function getLastCharacter(str) {
+  return str[str.length - 1];
+}
+
+function getOneCharacter(str, i) {
+  return str[1];
+}
+
+function getTwoCharacters(str, i1, i2) {
+  return str[i1] str[i2];
+}
+
+function makeCapitalized(str) {
+  return str.toUpperCase();
+}
+
+function yellLouder(str) {
+  return str.toUpperCase() + '!!!';
+}
 
 
+function getInitials(str) {
+  const initials1 = str[0];
+  const spaceIndex = str.indexOf(' ');
+  const initials2 = str[spaceIndex + 1];
 
+  return initials2 + '.' + initials2 + '.';
+
+}
 
 
 /********************************************************************

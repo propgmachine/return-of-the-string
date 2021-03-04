@@ -6,10 +6,19 @@ function yell(str) {
   return str + '!';
 }
 
+//function yell2(str)  {
+//  const answer = str + '!';
+
+//  return answer;
+//}
+
+
 const result1 = yell('Hello')
-console.log(result1); Hello!
+console.log(result1); 
+
+
 const result2 = yell('Hi');
-result2; Hi!
+result2; 
 
 function getFirstCharacter(str) {
   return str[0]
@@ -24,7 +33,7 @@ function getOneCharacter(str, i) {
 }
 
 function getTwoCharacters(str, i1, i2) {
-  return str[i1] str[i2];
+  return str[i1] + str[i2];
 }
 
 function makeCapitalized(str) {
@@ -41,7 +50,7 @@ function getInitials(str) {
   const spaceIndex = str.indexOf(' ');
   const initials2 = str[spaceIndex + 1];
 
-  return initials2 + '.' + initials2 + '.';
+  return initials1 + '.' + initials2 + '.';
 
 }
 
